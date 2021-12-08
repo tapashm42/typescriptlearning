@@ -1,0 +1,17 @@
+"use strict";
+exports.__esModule = true;
+var _1 = require("./");
+var employee = new _1.Employee();
+employee.firstName = 'Tapash';
+employee.lastName = 'Mollick';
+console.log(employee.firstName + " " + employee.lastName);
+console.log("Hello World!");
+console.log("My first Typescript");
+var firstName = "tapash";
+var value = 'test';
+var success = true;
+var age = 34;
+age = 1;
+firstName = "Jia";
+console.log(firstName + " age is " + age);
+console.log(" ${firstName} & ${age} ");
